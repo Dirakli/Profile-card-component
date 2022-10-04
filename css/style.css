@@ -1,0 +1,108 @@
+.div-main {
+  height: 100vh;
+  background-color: #19a1ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top -500px left -400px, bottom -700px right -200px ;
+  
+}
+
+.div-container {
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    background-image: url("/images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+.portrait {
+    border-radius: 50%;
+    border: solid #FFFFFF 6px;
+    margin-top: 92px;
+    margin-right: 127px;
+    margin-left: 127px;
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    
+}
+.div-elements {
+    width: 350px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.name {
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.32px;
+    font-family: 'Baloo 2', cursive;
+    color: #2E3349;
+}
+
+.age {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.32px;
+    font-family: 'Baloo 2', cursive;
+    color: #6B7082;
+}
+.london {
+    padding-top: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.36px;
+    font-family: 'Baloo 2', cursive;
+    color: #6B7082;
+}
+.line {
+    margin-top: 28px;
+    height: 1px;
+    width: 350px;
+    background-color: #E8E9EC;
+}
+
+/* .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.div-K {
+    display: flex;
+    color: #2E3349;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.32px;
+    font-family: 'Baloo 2', cursive;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    
+}
+.div-nav {
+    display: flex;
+    color: #2E3349;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.4px;
+    font-family: 'Baloo 2', cursive;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 27px;
+
+}
+
